@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Audio Player</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container" id="player">
+  <div class="audio-image">
+    <img class="cover" id="cover">
+  </div>
+
+  <div class="audio-info">
+    <span class="artist"></span> - <span class="title"></span>
+  </div>
+
+  <input class="volume" id="volume" type="range" min="0" max="100" value="50">
+
+  <div class="buttons">
+    <button class="prev" id="prev"></button>
+    <button class="play" id="play"></button>
+    <button class="pause" id="pause"></button>
+    <button class="stop" id="stop"></button>
+    <button class="next" id="next"></button>
+  </div>
+  <div class="clearfix"></div>
+  <div class="tracker">
+    <div class="progress-bar">
+      <span class="progress" id="progress"></span>
+    </div>
+    <span class="duration" id="duration"></span>
+  </div>
+
+  <ul class="playlist" id="playlist">
+    <li song="Farmer Boys - Stay Like This Forever">Farmer Boys - Stay Like This Forever</li>
+    <li song="Pressure Recall - Rearrange">Pressure Recall - Rearrange</li>
+    <li song="Taproot - Poem">Taproot - Poem</li>
+  </ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

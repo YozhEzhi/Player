@@ -1,0 +1,21 @@
+{
+  "name": "html5_player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YozhEzhi/html5-player.git"
+  },
+  "author": "Yozh Ezhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YozhEzhi/html5-player/issues"
+  },
+  "homepage": "https://github.com/YozhEzhi/html5-player#readme",
+  "devDependencies": {
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
