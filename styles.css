@@ -1,3 +1,5 @@
+/* Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> */
+
 html, body {
   height: 100%;
   margin: 0;
@@ -17,30 +19,12 @@ body {
   line-height: 1.5em;
 }
 
-.clearfix {
-  clear: both;
-}
-
-.hidden {
-  display: none;
-}
-
 .container {
   background: #333;
   border: 2px solid #666;
   border-radius: 10px;
   overflow: hidden;
   width: 330px;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
 }
 
 .audio-image {
@@ -143,17 +127,14 @@ button {
 }
 
 .tracker {
-  position: relative;
-  width: 100%;
+  display: flex;
 }
 
 .progress-bar {
   background: url(images/progress_bg.png) no-repeat;
   background-size: contain;
-  height: 7px;
-  float: left;
-  margin: 9px 0 20px 11px;
-  width: 250px;
+  margin: 10px 8px 0 11px;
+  width: 242px;
 }
 
 .progress {
@@ -164,11 +145,21 @@ button {
 }
 
 .duration {
-  background: #000;
-  border-radius: 5px;
+  background: #2a2626;
+  border-radius: 4px;
   line-height: 1.2;
   padding: 4px 8px;
-  position: absolute;
-  top: 0;
-  right: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
