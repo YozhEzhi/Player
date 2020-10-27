@@ -1,7 +1,7 @@
 {
-  "name": "html5_player",
+  "name": "audio-player",
   "version": "1.0.0",
-  "description": "Simple implementation of audio player",
+  "description": "Simple audio player implementation",
   "main": "index.js",
   "repository": {
     "type": "git",
